@@ -1,11 +1,13 @@
 import * as React from 'react';
-import { NavigationContainer } from '@react-navigation/native';
-import DrawerNavigator from "./navigation/DrawerNavigator";
+import {View, Text} from 'react-native';
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <DrawerNavigator />
-    </NavigationContainer>
+   <View style = {{
+      flex: 1,
+      justifyContent: "center",
+      alignItems: "center"}}>
+    <Text>App</Text> 
+   </View>
   );
 }
